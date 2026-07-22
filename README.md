@@ -1,16 +1,73 @@
-# React + Vite
+# AI Notes React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+AI Notes React App is a simple note-taking application built with React and Vite. Users can create, edit, delete, search, and save notes in the browser using Local Storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add new notes
+- Edit existing notes
+- Delete notes
+- Search notes
+- Automatically save notes using Local Storage
+- Responsive React interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- CSS
+- Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-notes-react.git
+```
+
+2. Navigate to the project
+
+```bash
+cd ai-notes-react
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```text
+src/
+ ├── components/
+ │    ├── Navbar.jsx
+ │    ├── NoteInput.jsx
+ │    └── NoteCard.jsx
+ ├── App.jsx
+ ├── App.css
+ ├── index.css
+ └── main.jsx
+```
+
+## Future Improvements
+
+- Dark Mode
+- Categories
+- Note timestamps
+- Cloud synchronization
+
+## Author
+
+Alwin Joy Solomon
